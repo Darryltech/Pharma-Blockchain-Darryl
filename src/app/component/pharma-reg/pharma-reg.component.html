@@ -1,0 +1,41 @@
+<button mat-icon-button mat-dialog-close  id="D_close"><mat-icon>X</mat-icon></button>
+<h1 mat-dialog-title>Product Registration</h1>
+<form id="D_form" [formGroup]="Drugform" >
+  <p>{{firstname}}</p>
+<div mat-dialog-content >
+  <mat-form-field>
+    <mat-label>Product Name</mat-label>
+    <input matInput  placeholder="Name" formControlName="Name">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Product Origin</mat-label>
+    <input matInput  placeholder="Origin" formControlName="Origin">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Product Price</mat-label>
+    <input matInput  placeholder="Price" formControlName="Price">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Production Date</mat-label>
+    <input matInput type="date" placeholder="Pr Date" formControlName="PrDate">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Expiration Date</mat-label>
+    <input matInput type="date" placeholder="Ex Date" formControlName="ExDate">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Description</mat-label>
+    <input matInput  placeholder="pic" id="D_des" formControlName="Description">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Product Quantity</mat-label>
+    <input matInput  placeholder="pic" formControlName="Quantity">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button >ok</button>
+  <button mat-raised-button mat-dialog-close  id="D_close">close</button>
+
+
+</div>
+</form>

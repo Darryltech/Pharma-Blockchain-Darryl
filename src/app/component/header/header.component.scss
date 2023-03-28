@@ -1,0 +1,104 @@
+
+mat-toolbar{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 0px 3px rgb(0, 0, 1)
+}
+
+#pname{
+color:rgb(64, 128, 235);;
+margin-top: 50px;
+font-size: 30px;
+text-shadow: 0px 0px 1px;
+font-weight: bold;
+&:hover{
+    font-weight: bolder;
+   
+}
+
+}
+#div-control{
+    display:inline-flex ;
+    margin-top: 0%;
+    mat-icon{
+        margin-right: 20%;
+    }
+}
+#menue{
+display: flex;
+margin-right: 1%;
+}
+#select-con{
+
+    margin-top: 51px;
+   margin-left: 15px;
+
+
+}
+#img-div{
+    margin-left: 50px;
+    margin-top: 48.5px;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    img{
+        margin-top: -.1%;
+        width: 33px;
+        height: 33px;
+        border-radius: 60%;    
+    
+    }
+    
+
+
+}
+.opt-ico{
+    display: inline-block;
+}
+
+#pharma-name{
+    margin-left:150px;
+}
+
+#shopping-div{
+    margin-left: 10em;
+    margin-top: 49px;
+    width: fit-content;
+}
+.option{
+    width: 10em;
+}
+#search-div{
+    display: flex;
+    margin-left: 8em;
+    margin-top: 20px;
+    
+
+
+    
+}
+#toggle-but{
+    margin-top: 47px;
+}
+#pharma-name2{
+    margin-left: 7.4%;
+    #pname2{
+ color:rgb(64, 128, 235);
+margin-top: 7px;
+font-size: 30px;
+text-shadow: 0px 0px 1px;
+font-weight: bold;
+
+&:hover{
+    font-weight: bolder;
+    
+    }
+}
+}
+mat-icon{
+    color:rgb(64, 128, 235) ;
+}
+
+
+

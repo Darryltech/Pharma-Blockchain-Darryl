@@ -1,0 +1,45 @@
+<mat-toolbar >
+  
+  <div id="menue">
+    <div id="toggle-but">
+  <button mat-icon-button (click)="MatSidenav.toggle()"><mat-icon>menu</mat-icon></button>
+    </div>
+  
+<div id="pharma-name">
+  <p id="pname">{{pharmaName|uppercase}}</p>
+ </div>
+
+ 
+  <div id="search-div">
+ <app-search-bar></app-search-bar>
+</div>`
+
+
+ <div id="shopping-div">
+  <button mat-icon-button id="shopping" routerLink="carte"> 
+    <mat-icon id="shoping-icon" >shopping_cart</mat-icon>
+  </button>
+</div>
+
+
+<div #image id="img-div"><img src="../../assets/images/pharma.jpg" alt=""></div>
+  <div id="div-control">
+   
+    <mat-select id="select-con">
+     <mat-option  class="option" ><button mat-icon-button routerLink="profile">
+      <mat-icon id="prof-ic" class="opt-ico"> person</mat-icon> Profile
+     </button>
+    </mat-option>
+     <mat-option  class="option" ><button mat-icon-button routerLink="notifications">
+      <mat-icon id="prof-ic" class="opt-ico">notification_important</mat-icon> Notification
+     </button>
+    </mat-option>
+     <mat-option  class="option" ><button mat-icon-button routerLink="logout">
+      <mat-icon id="prof-ic" class="opt-ico">settings_power</mat-icon> logout
+     </button>
+    </mat-option>
+    </mat-select>
+  </div>
+</div> 
+
+</mat-toolbar>

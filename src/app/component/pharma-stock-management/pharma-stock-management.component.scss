@@ -1,0 +1,64 @@
+#D_but-div{
+    float: right;
+    margin-right: 2%;
+    width: fit-content;
+    height: auto;
+}
+#D_table-div{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 2%;
+  
+   
+}
+#D_table,tr,th{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+th{
+    color: rgb(64, 128, 235);
+    background-color:whitesmoke;
+    margin-left: 4%;
+    width: 12%;
+    height: 70px;
+}
+#D_but{
+    height: 30px;
+    border-radius: 20px;
+}
+#D_butttons-div{
+    display:inline-flex;
+}
+#D_edit{
+    color: rgb(64, 128, 235);
+}
+#D_del{
+    color: rgb(201, 71, 71);
+    margin-right: 12px;
+}
+#D_table{
+    width: 100%;
+
+   
+    
+}
+td{
+    width: 10%;
+    margin-left: 10px;
+}
+#medImg{
+background-color: rgb(236, 233, 233);
+opacity:3;
+}
+#D_table_under{
+    width:100%;
+    margin-top: 3%;
+    margin-right: 4%;
+
+ 
+}
+
+
+

@@ -1,0 +1,48 @@
+<app-tittle [tittle]="tittle"></app-tittle>
+<div id="D_but-div">
+    <button mat-icon-button id="D_but"  (click)="openPopup()"><mat-icon>add</mat-icon></button>
+    <button mat-icon-button id="D_funnel_but"><mat-icon></mat-icon></button>
+</div>
+<div id="D_table_under">
+<div id="D_table-div">
+<table id="D_table">
+ <tr id="D_table_row">
+ <th>Product Image</th>
+ <th>Product Name</th>
+ <th>Product Origin</th>
+ <th>Product Price</th>
+ <th>production Date</th>
+ <th>Expiration Date</th>
+ <th>Description</th>
+ <th>Product status</th>
+ <th>Qty</th>
+ <th>Mass(mg)</th>
+ <th>Modify</th>
+</tr>
+<tr  id="info" *ngFor="let drug of druglist">
+    <td><div>
+        <img [src]="pic" height="100" alt="0" id="medImg">
+    </div>
+      </td>
+    <td>{{drug.product_name}}</td>
+    <td>{{drug.product_origin}}</td>
+    <td>{{drug.product_price}}</td>
+    <td>{{drug.production_date| date:'MMM/dd/yyyy'}}</td>
+    <td>{{drug.expiration_date| date:'MMM/dd/yyyy'}}</td>
+    <td>{{drug.description}}</td>
+    <td>{{drug.product_status}}</td>
+    <td>{{drug.Quantity}}</td>
+    <td>{{drug.Mass}}</td>
+    <td >
+        <div id="D_butttons-div">
+            <button id="D_edit" mat-icon-button><mat-icon (click)="openPopup()">edit</mat-icon></button>
+            <button id="D_del" mat-icon-button><mat-icon >delete</mat-icon></button>     
+        </div>
+       
+    </td>
+
+</tr>
+</table>
+</div>
+</div>
+

@@ -1,0 +1,17 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+mat-sidenav{
+    width: 12%;
+    background: rgb(64, 128, 235);
+    box-shadow: 1px 0 3px rgb(0, 0, 1);
+}
+mat-sidenav-container{
+    height: 100%;
+}
+#router-out{
+    margin-top: 1em;
+}
+
