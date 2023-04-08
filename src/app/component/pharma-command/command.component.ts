@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./command.component.scss']
 })
 export class CommandComponent implements OnInit {
-
+  tittle = "Command";
   constructor() { }
-
+ 
   ngOnInit(): void {
   }
 
