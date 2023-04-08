@@ -2,7 +2,7 @@ import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { PharmaRegComponent } from '../pharma-reg/pharma-reg.component';
-import { drugs } from '../../models/pharma';
+import { drugs } from '../../pharma-models/pharma';
 import { StockServiceService } from '../../services/stock/stock-service.service';
 import { PharmaHelpComponent } from '../pharma-help/pharma-help.component';
 
@@ -31,7 +31,6 @@ export class PharmaStockManagementComponent implements OnInit {
 
   openPopup(){
  this.matDialog.open(PharmaRegComponent,{width:'50%',height:'700px',data:{
-  name: 'Dobgima'
  },
  });
   }

@@ -14,21 +14,23 @@ import {MatInputModule} from  '@angular/material/input';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SidenavComponent } from './component/sidenav/sidenav.component';
-import { HeaderComponent } from './component/header/header.component';
+import { SidenavComponent } from './component/pharma-sidenav/sidenav.component';
+import { HeaderComponent } from './component/pharma-header/header.component';
 import { PharmaRegComponent } from './component/pharma-reg/pharma-reg.component';
-import { PharmaStatComponent } from './component/pharma-stat/pharma-stat.component';
 import { PharmaDashboardComponent } from './component/pharma-dashboard/pharma-dashboard.component';
 import { PharmaStockManagementComponent } from './component/pharma-stock-management/pharma-stock-management.component';
 import { PharmaSalesManagementComponent } from './component/pharma-sales-management/pharma-sales-management.component';
 import { PharmaHelpComponent } from './component/pharma-help/pharma-help.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SearchBarComponent } from './component/search-bar/search-bar.component';
-import { ProfileComponent } from './component/profile/profile.component';
+import { SearchBarComponent } from './component/pharma-search-bar/search-bar.component';
+import { ProfileComponent } from './component/pharma-profile/profile.component';
 import { PharmaNotificationComponent } from './component/pharma-notification/pharma-notification.component';
-import { CarteComponent } from './component/carte/carte.component';
-import { TittleComponent } from './component/tittle/tittle.component';
+import { CarteComponent } from './component/pharma-carte/carte.component';
+import { TittleComponent } from './component/pharma-tittle/tittle.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ReceiptComponent } from './component/pharma-receipt/receipt.component';
+import { OrdersComponent } from './component/pharma-orders/orders.component';
+import { CommandComponent } from './component/pharma-command/command.component';
 
 
 @NgModule({
@@ -37,7 +39,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     SidenavComponent,
     HeaderComponent,
     PharmaRegComponent,
-    PharmaStatComponent,
     PharmaDashboardComponent,
     PharmaStockManagementComponent,
     PharmaSalesManagementComponent,
@@ -46,7 +47,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProfileComponent,
     PharmaNotificationComponent,
     CarteComponent,
-    TittleComponent
+    TittleComponent,
+    ReceiptComponent,
+    OrdersComponent,
+    CommandComponent
   ],
  
   imports: [

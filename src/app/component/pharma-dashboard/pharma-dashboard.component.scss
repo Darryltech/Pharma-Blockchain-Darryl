@@ -1,8 +1,119 @@
-#tab{
-    margin-top: 10%;
+body{
+    background-color: whitesmoke;
 }
-#D_h2{
-    font-size: 30px;
-    font-weight: bolder;
-    margin-left:3% ;
+%box{
+    height: 150px;
+    width: 250px;
+    border: 1px solid black;
+    margin-left: 65px;
+    margin-top: 40px;
+    text-align: center;
+    %inbox{
+        height: 24px;
+        width: 10px;
+        margin-top: 18px;
+        padding-left: 240px;
+    }
 }
+%table{
+    height: 130px;
+    margin-top: 70px;
+    width: 570px;
+    border: 1px solid ;
+    margin-left: 60px;
+}
+%table1{
+    height: 130px;
+    margin-top: 10px;
+    width: 570px;
+    border: 1px solid ;
+    margin-left: 60px; 
+}
+#D_square{
+  @extend %box;
+   border-color: rgb(97, 240, 97);
+   background-color: white;
+}
+#D_internal-square{
+   @extend%inbox;
+    background-color: rgb(97, 240, 97);
+    border-color:rgb(97, 240, 97) 
+
+}
+
+#D_dash-div{
+    display: flex;
+}
+
+#D_square1{
+    @extend %box;
+    border-color: rgb(64, 128, 235);
+    background-color: white;
+ }
+ #D_internal-square1{
+    @extend %inbox;
+     background-color: rgb(64, 128, 235);
+     border-color:rgb(64, 128, 235) ;
+ }
+ #D_square2{
+    @extend %box;
+    border-color: rgb(249, 94, 94);
+    background-color: white;
+ }
+ #D_internal-square2{
+    @extend %inbox;
+     background-color: rgb(249, 94, 94);
+     border-color:rgb(249, 94, 94) ;
+ 
+ }
+ #D_square3{
+    @extend %box;
+    border-color: rgb(243, 194, 115);
+    background-color: white;
+ }
+ #D_internal-square3{
+    @extend %inbox;
+     background-color: rgb(243, 194, 115);
+     border-color:rgb(243, 194, 115) ;
+ 
+ }
+ #D_table-section{
+    background-color: white;
+    height:400px;
+    
+ }
+
+ #D_table-div1{
+    @extend %table;
+    
+ }
+ #D_first-row{
+    display: flex;
+ }
+ #D_second-row{
+    display: flex;
+ }
+ #D_table-div2{
+    @extend %table;  
+ }
+ #D_table-div3{
+    @extend %table1;  
+ }
+ #D_table-div4{
+    @extend %table1;  
+ }
+ .D_in-head{
+    border-bottom: 1px solid;
+    padding-bottom:27px ;
+
+ }
+ a{
+    text-decoration: none;
+ }
+
+ .D_h3-dash{
+    margin-top: 40px;
+ }
+ .D_p-dash{
+    margin-top: 0px;
+ }

@@ -1,7 +1,7 @@
 <app-tittle [tittle]="tittle"></app-tittle>
 <div id="D_but-div">
     <button mat-icon-button id="D_but"  (click)="openPopup()"><mat-icon>add</mat-icon></button>
-    <button mat-icon-button id="D_funnel_but"><mat-icon></mat-icon></button>
+    <button mat-icon-button id="D_funnel_but" type=""><mat-icon>filter_alt</mat-icon></button>
 </div>
 <div id="D_table_under">
 <div id="D_table-div">
@@ -14,13 +14,13 @@
  <th>production Date</th>
  <th>Expiration Date</th>
  <th>Description</th>
- <th>Product status</th>
+ <th>Product group</th>
  <th>Qty</th>
  <th>Mass(mg)</th>
  <th>Modify</th>
 </tr>
 <tr  id="info" *ngFor="let drug of druglist">
-    <td><div>
+    <td><div id="D_imgDiv" >
         <img [src]="pic" height="100" alt="0" id="medImg">
     </div>
       </td>

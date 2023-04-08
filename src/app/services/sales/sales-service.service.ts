@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { sales } from 'src/app/models/sales';
+import { sales } from 'src/app/pharma-models/sales';
 
 @Injectable({
   providedIn: 'root'
@@ -8,6 +8,7 @@ export class SalesServiceService {
   reciept : sales[]=[
   
       {
+      C_name:'DOBGIMA DARRYL WOBA',
       image : '',
       product_name:'Bactrim' ,
       product_origin: 'South West',
@@ -19,7 +20,8 @@ export class SalesServiceService {
 
     },
     {
-      image : 'nsaddnsadnaskdnlsadas;lkd;lsakd;askd;la',
+      C_name: 'LEKEAKA NJINKENG',
+      image : '',
       product_name:'Panaxia' ,
       product_origin: 'South West',
       product_price: 2000,
@@ -30,6 +32,7 @@ export class SalesServiceService {
 
     },
     {
+      C_name:'OKPWAE MBA',
       image : '',
       product_name:'Dental Pro' ,
       product_origin: 'South West',

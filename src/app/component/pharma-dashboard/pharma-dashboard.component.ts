@@ -11,7 +11,7 @@ export class PharmaDashboardComponent implements OnInit {
 links=['Products in stock', 'Satistics'];
 activelink = this.links[0];
 
-Dashboard ='Dashboard'
+tittle='Dashboard'
 
 
   constructor() { }

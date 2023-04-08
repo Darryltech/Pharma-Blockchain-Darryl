@@ -1,26 +1,12 @@
 <app-tittle [tittle]="tittle"></app-tittle>
-<div id="D_table_-div">
-    <table>
-        <tr>
-        <th>Image</th>
-        <th>Name</th>
-        <th>Product Price</th>
-        <th>Quantity</th>
-        <th>Sale date</th>
-        <th>Action</th>
-    </tr>
-    <tr id="" *ngFor="let drug of druglist">
-        <td>{{drug.image}}</td>
-        <td>{{drug.product_name}}</td>
-        <td>{{drug.product_price}}</td>
-        <td>{{drug.Quantity}}</td>
-        <td>{{drug.sale_date|date:'MMM/dd/yyyy. h:mm:ss'}}</td>
-        <td> 
-            <button mat-icon-button (click)="openPopup()"><mat-icon > print</mat-icon></button>
-            <button mat-icon-button><mat-icon>delete</mat-icon></button>
-
-        </td>
-
-    </tr>
-    </table>
+<div id="D_Trans-div">
+    <a href="orders"><div id="D_square">
+        <h1 class="D_h1-trans">ORDERS</h1>
+        <div id="D_internal-square"> </div> </div></a>
+    <a href="command"><div id="D_square">
+        <h1 class="D_h1-trans">COMMAND</h1>
+        <div id="D_internal-square"> </div> </div></a>
+    <a href="receipt" ><div id="D_square">
+        <h1 class="D_h1-trans">RECEIPT</h1>
+        <div id="D_internal-square"> </div> </div></a>
 </div>
