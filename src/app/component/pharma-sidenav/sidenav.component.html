@@ -1,0 +1,29 @@
+  <div id="logo-div">
+
+    <img src="../../assets/images/pharmablock.jpg" alt="logo" id="logo">
+   
+  </div><br>
+  
+     <mat-nav-list>
+      <div  routerLinkActive="active-a"  class="sideLink-div" ><a mat-list-item routerLink="dashboard">
+        <mat-icon>dashboard</mat-icon>  Dashbord </a>  </div>
+     <div  routerLinkActive="active-a">  <a mat-list-item routerLink="stock" >
+      <mat-icon>storage</mat-icon>  Stock </a> </div>
+   <div routerLinkActive="active-a"  class="D_sales-div"><a mat-list-item routerLink="sales" >
+    <mat-icon>library_books</mat-icon> Transactions  </a> 
+    <mat-select id="select">
+      <mat-option> <a routerLink="orders" class="D_select-a">Orders</a></mat-option>
+      <mat-option> <a routerLink="command" class="D_select-a">Command</a></mat-option>
+      <mat-option> <a routerLink="receipt" class="D_select-a">Receipt</a></mat-option>
+    </mat-select>
+   </div>
+     
+    <div  routerLinkActive="active-a"> <a mat-list-item routerLink="exchange" >
+      <mat-icon>swap_vertical_circle</mat-icon>  Exchange </a></div>
+   <div  routerLinkActive="active-a" >  <a mat-list-item routerLink="help" >
+    <mat-icon>question_mark</mat-icon> Help</a></div>
+  
+    
+     </mat-nav-list>
+
+ 
