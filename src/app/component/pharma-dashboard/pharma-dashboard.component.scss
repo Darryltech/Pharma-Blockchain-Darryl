@@ -21,6 +21,7 @@ body{
     width: 570px;
     border: 1px solid ;
     margin-left: 60px;
+    text-align: center;
 }
 %table1{
     height: 130px;
@@ -28,6 +29,7 @@ body{
     width: 570px;
     border: 1px solid ;
     margin-left: 60px; 
+    text-align: center
 }
 #D_square{
   @extend %box;
