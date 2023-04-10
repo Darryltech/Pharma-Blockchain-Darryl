@@ -1,13 +1,20 @@
 body{
     background-color: whitesmoke;
 }
+%border{
+   border-radius: 4%;
+   box-shadow: 0px 0px 2px;
+}
 %box{
     height: 150px;
     width: 250px;
     border: 1px solid black;
+    @extend %border;
     margin-left: 65px;
     margin-top: 40px;
     text-align: center;
+    
+   
     %inbox{
         height: 24px;
         width: 10px;
@@ -19,15 +26,19 @@ body{
     height: 130px;
     margin-top: 70px;
     width: 570px;
-    border: 1px solid ;
+    border: 1px solid rgb(64, 128, 235) ;
     margin-left: 60px;
     text-align: center;
+    font-size: 16px;
+    @extend %border;
 }
 %table1{
     height: 130px;
     margin-top: 10px;
     width: 570px;
-    border: 1px solid ;
+    @extend %border;
+    font-size: 16px;
+    border: 1px solid rgb(64, 128, 235) ;
     margin-left: 60px; 
     text-align: center
 }
@@ -105,7 +116,7 @@ body{
     @extend %table1;  
  }
  .D_in-head{
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgb(64, 128, 235);
     padding-bottom:27px ;
 
  }
