@@ -1,12 +1,15 @@
-<app-tittle [tittle]="tittle"></app-tittle>
+<app-tittle [tittle]="tittle" [description]="description"></app-tittle>
 <div id="D_Trans-div">
-    <a href="orders"><div id="D_square">
-        <h1 class="D_h1-trans">ORDERS</h1>
-        <div id="D_internal-square"> </div> </div></a>
-    <a href="command"><div id="D_square">
+    <a href="orders"><div class="D_square">
+        <mat-icon class="D_transact">shopping_cart_checkout</mat-icon>
+        <h1 class="D_h1-trans"> ORDERS</h1>
+        <div class="D_internal-square"> </div> </div></a>
+    <a href="command"><div class="D_square">
+        <mat-icon class="D_transact">shopping_bag</mat-icon>
         <h1 class="D_h1-trans">COMMAND</h1>
-        <div id="D_internal-square"> </div> </div></a>
-    <a href="receipt" ><div id="D_square">
+        <div class="D_internal-square"> </div> </div></a>
+    <a href="receipt" ><div class="D_square">
+        <mat-icon class="D_transact">receipt</mat-icon>
         <h1 class="D_h1-trans">RECEIPT</h1>
-        <div id="D_internal-square"> </div> </div></a>
+        <div class="D_internal-square"> </div> </div></a>
 </div>

@@ -8,10 +8,8 @@ import { ThemePalette } from '@angular/material/core';
 })
 export class PharmaDashboardComponent implements OnInit {
   
-links=['Products in stock', 'Satistics'];
-activelink = this.links[0];
-
-tittle='Dashboard'
+tittle='Dashboard';
+description='Data overview of the the stock and transactions'
 
 
   constructor() { }

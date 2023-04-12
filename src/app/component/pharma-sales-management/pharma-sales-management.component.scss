@@ -5,27 +5,28 @@
     height: 250px;
     width: 330px;
     border-radius: 10px;
+    box-shadow: 0px 0px 3px;
     border: 1px solid;
     margin-left: 65px;
     margin-top: 40px;
     %inbox{
-        height: 40px;
+        height: 30px;
         width: 90px;
-        margin-top:88px;
+        margin-top:37px;
         padding-left: 240px;
     }
 }
 %text{
-    margin-top: 90px;
-    margin-left: 80px;
-    font-size: 37px;
+    margin-top: 50px;
+   text-align: center;
+    font-size: 39px;
 }
-#D_square{
+.D_square{
     @extend %box;
      border-color: rgb(64, 128, 235);
      background-color: white;
   }
-  #D_internal-square{
+  .D_internal-square{
      @extend%inbox;
       background-color: rgb(64, 128, 235);
       border-color:rgb(64, 128, 235) ;
@@ -34,11 +35,38 @@
   }
   a{
     text-decoration: none;
+  
+   
+  }
+  a:hover{
+    
+    .D_square{
+       background-color:rgb(64, 128, 235) 
+    }
+    mat-icon{
+      color:white ;
+    }
+    h1{
+      color: white;
+    }
+    .D_internal-square{
+      @extend%inbox;
+      background-color: white;
+      border-color: white;
+    }
    
   }
   .D_h1-trans{
    @extend%text;
    color: blue;
-   text-shadow: 0px 0px 3px rgb(64, 128, 235);
+ 
 
+  }
+  .D_transact{
+    margin-left: 140px;
+    margin-top: 20px;
+    font-size: 60px;
+  }
+  mat-icon{
+    color:rgb(64, 128, 235) ;
   }

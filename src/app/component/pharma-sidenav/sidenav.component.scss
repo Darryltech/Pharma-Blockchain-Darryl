@@ -4,8 +4,10 @@ mat-icon{
     color: white;
 }
 mat-nav-list{
+    margin-left: 20px;
     margin-top: 20%;
     font-size: 0.9rem;
+    margin-right: 20px;
 
 }
 h1{
@@ -40,7 +42,7 @@ font-weight: bolder;
     font-weight: bolder;
     background-color: white;
     font-size: 20px;
-    transition: 0.5s;
+    transition: .6s;
     border-radius: 5px;
     height: 50px;
    #select{
@@ -61,9 +63,9 @@ font-weight: bolder;
 
 #select{
     background-color: rgb(64, 128, 235);
-    margin-left: 20px;
+    margin-left: 18px;
     height: 20px;
-    margin-top: 13%;
+    margin-top: 15%;
     border: none;
     color: white;  
   

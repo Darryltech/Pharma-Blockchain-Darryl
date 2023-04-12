@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PharmaNotificationComponent implements OnInit {
 
+  tittle = 'Notification';
+  description = 'Keeps users alert';
   constructor() { }
 
   ngOnInit(): void {

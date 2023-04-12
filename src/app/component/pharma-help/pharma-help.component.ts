@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pharma-help.component.scss']
 })
 export class PharmaHelpComponent implements OnInit {
+  tittle='Help';
+  description = 'Guide for users';
 
   constructor() { }
 

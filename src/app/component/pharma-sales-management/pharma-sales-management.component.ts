@@ -12,6 +12,7 @@ import { PharmaNotificationComponent } from '../pharma-notification/pharma-notif
 })
 export class PharmaSalesManagementComponent implements OnInit {
 tittle = 'Transactions'
+description = 'Navigate to the various transactions'
   constructor() { }
 
   ngOnInit(): void {

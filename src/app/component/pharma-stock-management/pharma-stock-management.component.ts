@@ -16,6 +16,7 @@ import { PharmaHelpComponent } from '../pharma-help/pharma-help.component';
 export class PharmaStockManagementComponent implements OnInit {
   druglist : drugs[]=[];
   tittle = 'Stock Management';
+  description = 'Manage different pharmaceutical products';
   pic ="../../assets/images/bactrim.jpeg";
 
  

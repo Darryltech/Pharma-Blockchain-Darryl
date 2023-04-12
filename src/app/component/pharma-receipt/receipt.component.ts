@@ -12,7 +12,8 @@ import { PharmaNotificationComponent } from '../pharma-notification/pharma-notif
 export class ReceiptComponent implements OnInit {
 
   druglist : sales[]=[];
-  tittle ='Receipt'
+  tittle ='Receipt';
+  description ='Manage receipts';
 
   constructor(private matDialog:MatDialog, private salesService:SalesServiceService) { }
 

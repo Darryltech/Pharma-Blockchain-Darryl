@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./orders.component.scss']
 })
 export class OrdersComponent implements OnInit {
-  tittle = 'Orders'
+  tittle = 'Orders';
+  description ='Manage incoming transactions';
 
   constructor() { }
 

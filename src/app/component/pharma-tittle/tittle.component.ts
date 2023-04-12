@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class TittleComponent implements OnInit {
   @Input() tittle:string = ' ';
+  @Input() description:string = ' ';
 
   constructor() { }
 

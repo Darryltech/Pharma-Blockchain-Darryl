@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommandComponent implements OnInit {
   tittle = "Command";
+  description = 'command products from suppliers';
   constructor() { }
  
   ngOnInit(): void {
